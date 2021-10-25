@@ -75,32 +75,33 @@ img {
 
 /* SOLUZIONE */
 
-@media screen and (max-width: 1023px) {
-  #lezioni {
-    width:100%
-  }
 
-  #steps{
-    width: 100%;
-  }
-  
-}
 
 
 
 @media screen and (max-width: 419px) {
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row{
     width:100%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
   }
 
 #lezioni .row>.left,
 #lezioni .row>.right {
  
    width: 100%; 
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 100%;
 }
 
 
