@@ -75,6 +75,19 @@ img {
 
 /* SOLUZIONE */
 
+@media screen and (max-width: 1023px) {
+  #lezioni {
+    width:100%
+  }
+
+  #steps{
+    width: 100%;
+  }
+  
+}
+
+
+
 @media screen and (max-width: 419px) {
 
   .row{
