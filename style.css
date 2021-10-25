@@ -75,17 +75,15 @@ img {
 
 /* SOLUZIONE */
 
-
-
-
-
-@media screen and (max-width: 419px) {
+@media screen and (max-width:768px){
 
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  
 
   .row{
     width:100%; 
@@ -103,6 +101,45 @@ img {
 #steps .row>.right {
   width: 100%;
 }
+
+h1{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 419px) {
+
+  #lezioni .row img{
+    width:150px;
+    height: auto;
+  }
+
+  
+  #steps .row>.left img,
+  #steps .row>.central img,
+  #steps .row>.right img {
+    width: 150px;
+    height: auto;
+
+  }
+
+  #why .row img{
+    width: 150px;
+    height: auto;
+
+
+  }
+
+  
 
 
   
